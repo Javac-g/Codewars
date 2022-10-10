@@ -16,7 +16,7 @@ public class PangramChecker {
       
     }
     
-    return pool.size() >= 23 ? true: false;
+    return pool.size() >= 26 ? true: false;
     
     }
 }
