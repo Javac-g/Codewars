@@ -14,7 +14,7 @@ class CodeDecode {
                             .replaceAll("5","001101")
                             .replaceAll("6","001110")
                             .replaceAll("7","001111")
-                            .replaceAll("8","00011000")
+                            //.replaceAll("8","00011000")
                             .replaceAll("9","00011001");
             
             
