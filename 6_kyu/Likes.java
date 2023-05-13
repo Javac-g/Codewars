@@ -1,7 +1,7 @@
 class Likes {
     public static String whoLikesIt(String... nms) {
         switch (nms.length) {
-          case 0: return "nobody likes this";
+          case 0: return "nobody  this";
           case 1: return String.format("%s likes this", nms[0]);
           case 2: return String.format("%s and %s like this", nms[0], nms[1]);
           case 3: return String.format("%s, %s and %s like this", nms[0], nms[1], nms[2]);
