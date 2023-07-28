@@ -1,5 +1,5 @@
 
-import java.util.*;
+import java.util.List;
 public class PigLatin {
   
     public static String pigIt(String str) {
