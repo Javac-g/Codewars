@@ -5,10 +5,10 @@ public class SecureTester{
     if(s.isEmpty()){ 
       return false;
       }
-   String allowed = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+   String allowedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         
         for (char c : s.toCharArray()) {
-            if (!allowed.contains(String.valueOf(c))) {
+            if (!allowedChars.contains(String.valueOf(c))) {
                 System.out.println(s);
                 return false;
             }
