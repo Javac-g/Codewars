@@ -3,6 +3,7 @@ public class SecureTester{
   public static boolean alphanumeric(String s){
 
     if(s.isEmpty()){ 
+      System.out.println("Empty string");
       return false;
       }
    String allowedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
