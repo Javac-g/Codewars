@@ -24,7 +24,7 @@ class StrongNumber {
         
    
         
-        int H = 0;
+        int H = 1;
         
         for(int j = 0;j < digits.length;j++){
           
