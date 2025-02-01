@@ -24,5 +24,5 @@ public class PigLatin {
          }
        }   
       return new String(String.valueOf(Arrays.toString(word)).replaceAll("]|\\[|\\_|\\-|\\,",""));
-    }
+    }////////////////////////////
 }
