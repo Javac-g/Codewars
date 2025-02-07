@@ -47,7 +47,7 @@ class StrongNumber {
         
         if(num == fact(num)){
           
-          return"STRONG!!!!";
+          return"STRONG!!";
         }
         return "Not Strong !!";
       }
