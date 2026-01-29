@@ -7,12 +7,22 @@ public class BinaryTreeLevels {
 
 
 
-    static List<Integer> process(Node r) {
-        Queue<Node> q = new ArrayDeque<>(List.of(r));
-        return Stream.generate(q::poll).takeWhile(Objects::nonNull)
+    static List<Integer> process(Node node) {
+        
+          if (node == null) return new ArrayList<>();
+    
+          Queue<Node> q = new ArrayDeque<>();
+          q.add(node);
+     
+          return Stream.generate(q::poll).takeWhile(Objects::nonNull)
                 .peek(n -> { if (n.left != null) q.add(n.left); if (n.right != null) q.add(n.right); })
-                .map(n -> n.getValue()).toList();
+                .map(n -> n.value).toList();
+    
     }
+
+
+
+    
     public static void main(String... args){
 
 
